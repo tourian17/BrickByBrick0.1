@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.com.wendell.brickbybrick.BrickByBrick"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00020000" />
+19-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:18:3-52
+19-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:18:17-49
+20    <uses-feature
+20-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:19:3-83
+21        android:name="android.hardware.vulkan"
+21-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:19:17-55
+22        android:required="false" />
+22-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:19:56-80
+23    <uses-feature
+23-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:20:3-88
+24        android:name="android.hardware.touchscreen"
+24-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:20:17-60
+25        android:required="false" />
+25-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:20:61-85
+26    <uses-feature
+26-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:21:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:21:17-71
+28        android:required="false" />
+28-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:21:72-96
+29    <uses-feature
+29-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:22:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:22:17-80
+31        android:required="false" />
+31-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:22:81-105
+32
+33    <application
+33-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:4:3-17:17
+34        android:debuggable="true"
+35        android:icon="@mipmap/app_icon"
+35-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:4:58-89
+36        android:label="@string/app_name"
+36-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:4:90-122
+37        android:theme="@style/UnityThemeSelector" >
+37-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:4:16-57
+38        <activity
+38-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:5:5-12:16
+39            android:name="com.com.wendell.brickbybrick.BrickByBrick.UnityPlayerActivity"
+39-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:5:337-413
+40            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+40-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:5:119-300
+41            android:hardwareAccelerated="false"
+41-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:5:301-336
+42            android:label="@string/app_name"
+42-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:5:15-47
+43            android:launchMode="singleTask"
+43-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:5:87-118
+44            android:screenOrientation="fullSensor" >
+44-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:5:48-86
+45            <intent-filter>
+45-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:6:7-9:23
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:7:9-61
+46-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:7:17-58
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:8:9-69
+48-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:8:19-66
+49            </intent-filter>
+50
+51            <meta-data
+51-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:10:7-82
+52                android:name="unityplayer.UnityActivity"
+52-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:10:18-58
+53                android:value="true" />
+53-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:10:59-79
+54            <meta-data
+54-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:11:7-78
+55                android:name="android.notch_support"
+55-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:11:18-54
+56                android:value="true" />
+56-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:11:55-75
+57        </activity>
+58
+59        <meta-data
+59-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:13:5-101
+60            android:name="unity.build-id"
+60-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:13:16-45
+61            android:value="bf297289-ec3a-415d-9446-19910c445d1a" />
+61-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:13:46-98
+62        <meta-data
+62-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:14:5-69
+63            android:name="unity.splash-mode"
+63-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:14:16-48
+64            android:value="0" />
+64-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:14:49-66
+65        <meta-data
+65-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:15:5-74
+66            android:name="unity.splash-enable"
+66-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:15:16-50
+67            android:value="True" />
+67-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:15:51-71
+68        <meta-data
+68-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:16:5-81
+69            android:name="notch.config"
+69-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:16:16-43
+70            android:value="portrait|landscape" />
+70-->C:\Users\rafae\Documents\Games\BrickByBrick\0.1\BrickByBrick\src\main\AndroidManifest.xml:16:44-78
+71    </application>
+72
+73</manifest>
